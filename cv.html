@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Curriculum vitae: Jose Leon </title>
+  <meta name="description" content="CV de Jose Leon">
+  <meta name="keywords" content="CV, HTML,CSS,JavaScript">
+  <meta name="author" content="Jose Leon">
+  <link rel="stylesheet" href="css/main.css">
+ 
+</head>
+<script>
+  var fecha= new Date();
+  var ano = fecha.getFullYear();
+  alert ('Bienvenido a mi curriculum vitae');
+  </script>
+<body>
+  
+  <form>
+  <header>
+<div id="container"> 
+<div id="me">
+  <h1>Jose Leon </h1> 
+ <div id="foto" src="" >
+ 
+  
+  <a href="https://i.ibb.co/2cXx593/yo.jpg(document.getElementById('nuevaimg').innerHTML=';img src=https://i.ibb.co/2cXx593/yo.jpg')">Ver Foto</a>
+
+</div>
+<div id="datos">
+<p>Fecha de naciemiento: 17/07/02</p>
+<p>Cedula:30.357.750</p>
+  <p>
+    Me gustan temas como : Hardware de Computacion y voleyball.</p>
+    
+  </div>
+</form>
+  </header>
+  </p>
+  <hr>
+</div>
+
+<h2 id="experiencia">Experiencia profesional</h2>
+ <ul>
+     <strong><li> Ninguna</li></strong>
+ </ul>
+
+
+<hr>
+<h2 id="habilidades">Habilidades y conocimientos</h2>
+<ul>
+  <li><strong>Computacion:</strong>Ensamblado de computadoras </li>
+</ul>
+
+<hr>
+<h2 id="educacion">Educación</h2>
+<table id="education">
+  <thead>
+  <tr>
+    <th>Título</th>
+    <th>Entidad</th>
+    <th>Promoción</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Bachiller</td>
+    <td>U.E Nuestra Señora de Lourdes</td>
+    <td>2019</td>
+  </tr>
+  <tr>
+    <td>Ingeniera en la información</td>
+    <td>UNITEC</td>
+    <td>2020-Presente</td>
+  </tr>
+  </tbody>
+</table>
+
+<hr>
+<h2 id="perfiles-sociales">Perfiles sociales</h2>
+<ul class="inline">
+  
+  <li><a href="https://www.facebook.com/jose.c.leon.7" target="_blank">Facebook</a></li>
+ <hr>
+<h2 id="contactar">Contactar</h2>
+    <ul>
+      <li id="gmail" style="display:none" ><a href="mailto:joseleon6787@gmail.com">joseleon6787@gmail.com</a>
+      <li id="telefono" style="display:none"> <strong>04143888389</strong></li>
+    <button id="botongmail" type="boton"  onclick="document.getElementById('gmail').style.display='block';document.getElementById('botongmail').style.display='none';document.getElementById('boton2').style.display='block';"style="display:block;">Mostrar gmail</button>
+    <button id="boton2" type="button" class="btn tw" onclick="document.getElementById('gmail').style.display = 'none';document.getElementById('boton2').style.display = 'none';document.getElementById('botongmail').style.display = 'block';" style="display: none;">Ocultar gmail</button>
+    <button id="botontelefono" type="boton" onclick="document.getElementById('telefono').style.display='block';document.getElementById('botontelefono').style.display='none';document.getElementById('boton3').style.display='block';"style="display:block;">Mostrar telefono</button>
+    <button id="boton3" type="button" class="btn tw" onclick="document.getElementById('telefono').style.display = 'none';document.getElementById('boton3').style.display = 'none';document.getElementById('botontelefono').style.display = 'block';" style="display: none;">Ocultar telefono</button>
+     </ul>>
+ 
+  <label for="to">Para:</label>
+  <label for="topic">Temática: </label>
+  <select id="topic">
+    <option>-- Elige un tema --</option>
+    <option>Consulta</option>
+    <option>Propuesta</option>
+    <option>Reporte</option>
+    <option>Otro</option>
+  </select>
+
+  <label for="subject">Asunto: </label>
+  <input id="subject" type="text" required="">
+
+  <label for="body">Cuerpo:</label>
+  <textarea id="body" required=""></textarea>
+
+  <button type="submit" class="pure-button pure-button-primary">Enviar</button>
+ 
+</body>
+</html>
